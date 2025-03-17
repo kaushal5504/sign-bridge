@@ -367,7 +367,7 @@ public class CommunityClass extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         description.setText("");
-                        Picasso.with(getApplicationContext()).load((Uri) null).fit().centerCrop().into(postImage);
+                        Picasso.get().load((Uri) null).fit().centerCrop().into(postImage);
                         bottomSheetDialog.dismiss();
                     }
                 });
@@ -405,7 +405,7 @@ public class CommunityClass extends AppCompatActivity {
                     if (documentSnapshot.exists()) {
                         String postImg = documentSnapshot.getString("postImages");
                         String descrip = documentSnapshot.getString("description");
-                        Picasso.with(CommunityClass.this).load(postImg).fit().centerCrop().into(postImage);
+                        Picasso.get().load(postImg).fit().centerCrop().into(postImage);
                         description.setText(descrip);
                     }
                 }
@@ -448,7 +448,7 @@ public class CommunityClass extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     description.setText("");
-                    Picasso.with(getApplicationContext()).load((Uri) null).fit().centerCrop().into(postImage);
+                    Picasso.get().load((Uri) null).fit().centerCrop().into(postImage);
                     bottomSheetDialog.dismiss();
                 }
             });
@@ -621,7 +621,7 @@ public class CommunityClass extends AppCompatActivity {
 //                        InputStream inputStream = getContentResolver().openInputStream(selectedImageUri);
 //                        Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
 //                        uploadedImage = bitmap;
-                        Picasso.with(getApplicationContext()).load(getUploadedImageUri()).fit().centerCrop().into(postImage);
+                        Picasso.get().load(getUploadedImageUri()).fit().centerCrop().into(postImage);
 
 
 //                        File selectedImageFile = new File(getPathFromUri(selectedImageUri));

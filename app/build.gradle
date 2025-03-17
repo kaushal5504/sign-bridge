@@ -20,6 +20,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
 
     compileOptions {
@@ -47,6 +48,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:22.1.0'
     implementation 'com.google.firebase:firebase-firestore:24.9.0'
     implementation 'com.google.firebase:firebase-storage:20.3.0'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
 
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.5.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu:2.10.0'
@@ -63,7 +65,8 @@ dependencies {
 
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0'
 //    implementation 'org.opencv:opencv-android:3.4.13'
-    implementation project(':openCVLibrary3413')
+    implementation project(':opencvlatest')
+    implementation 'androidx.test.ext:junit:1.2.1'
 
 
 }

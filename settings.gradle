@@ -1,3 +1,4 @@
 include ':app'
 rootProject.name = "SLTS"
-include ':openCVLibrary3413'
+//include ':openCVLibrary3413'
+include ':opencvlatest'
