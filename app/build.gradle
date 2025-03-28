@@ -65,7 +65,8 @@ dependencies {
 
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0'
 //    implementation 'org.opencv:opencv-android:3.4.13'
-    implementation project(':opencvlatest')
+    implementation project(':opencv343')
+    implementation project(':app-recognization')
     implementation 'androidx.test.ext:junit:1.2.1'
 
 
