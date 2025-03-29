@@ -5,9 +5,10 @@
 5    android:versionName="3.4.3" >
 6
 7    <uses-sdk
+7-->C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
 8        android:minSdkVersion="16"
-8-->C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
+8-->C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:15-41
 9        android:targetSdkVersion="28" />
-9-->C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
+9-->C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:42-71
 10
 11</manifest>

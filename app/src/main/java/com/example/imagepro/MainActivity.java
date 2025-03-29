@@ -135,7 +135,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.menuHome:
                         return true;
                     case R.id.menuCamera:
-                        startActivity(new Intent(MainActivity.this,mquinn.sign_language.MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                        Intent intent = new Intent();
+                        intent.setClassName("mquinn.sign_language","mquinn.sign_language.MainActivity");
+                        // startActivity(new Intent(MainActivity.this,mquinn.sign_language.MainActivity.class));
+                        startActivity(intent);
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.menuLearn: {
@@ -274,7 +277,10 @@ public class MainActivity extends AppCompatActivity {
         recognition.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,mquinn.sign_language.MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                Intent intent = new Intent();
+                intent.setClassName("mquinn.sign_language","mquinn.sign_language.MainActivity");
+               // startActivity(new Intent(MainActivity.this,mquinn.sign_language.MainActivity.class));
+                startActivity(intent);
             }
         });
 

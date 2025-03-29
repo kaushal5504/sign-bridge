@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-6:12
+ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:2:1-7:12
 	package
 		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:3:7-27
 		INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
@@ -14,16 +14,16 @@ INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidM
 	android:versionCode
 		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:4:7-33
 uses-sdk
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
-INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
+ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
+INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:5-74
 	android:targetSdkVersion
+		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:42-71
 		INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
 		INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
 	android:minSdkVersion
+		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml:6:15-41
 		INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
 		INJECTED from C:\Users\hp\Downloads\SiLearnPlatform-main\opencv343\java\AndroidManifest.xml
