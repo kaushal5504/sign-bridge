@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="Sign learner Platform"
+            android:text="Sign Bridge"
             android:textAllCaps="true"
             android:textColor="@color/colorWhite"
             android:textSize="16sp"
